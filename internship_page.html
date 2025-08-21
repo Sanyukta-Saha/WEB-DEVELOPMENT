@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internships</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 42px;
+            color: #333;
+            margin-bottom: 40px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2x2 grid */
+            gap: 25px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+            padding: 25px;
+            text-align: center;
+            color: white;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Different background colors for each card */
+        .card1 { background: linear-gradient(135deg, #42a5f5, #478ed1); }
+        .card2 { background: linear-gradient(135deg, #66bb6a, #43a047); }
+        .card3 { background: linear-gradient(135deg, #ff7043, #e64a19); }
+        .card4 { background: linear-gradient(135deg, #ab47bc, #8e24aa); }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+        }
+
+        .icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .card ul {
+            padding: 0;
+            list-style-type: none;
+            margin: 15px 0;
+        }
+
+        .card ul li {
+            margin: 6px 0;
+            font-size: 14px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            background: white;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #f1f1f1;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Internships</h1>
+
+    <div class="container">
+        <!-- Card 1 -->
+        <div class="card card1">
+            <div class="icon">💻</div>
+            <h3>Web Development Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend: -</li>
+                <li>Start date: 21/08/2025</li>
+            </ul>
+            <a href="https://www.webstackacademy.com/internship/online-free-full-stack-web-development-internship/" target="_blank" class="btn">View Details</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card card2">
+            <div class="icon">📱</div>
+            <h3>App Development Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend: -</li>
+                <li>Start date: 21/08/2025</li>
+            </ul>
+            <a href="https://internshala.com/internship/detail/part-time-android-app-development-internship-in-hyderabad-at-fantasy-flora-events-private-limited1753865904" target="_blank" class="btn">View Details</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card card3">
+            <div class="icon">🐍</div>
+            <h3>Python Programming Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend: -</li>
+                <li>Start date: 21/08/2025</li>
+            </ul>
+            <a href="https://www.emertxe.com/trainings/summer-trainings-embedded-systems/internships-python-programming-projects/" target="_blank" class="btn">View Details</a>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card card4">
+            <div class="icon">☕</div>
+            <h3>Java Programming Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend: -</li>
+                <li>Start date: 21/08/2025</li>
+            </ul>
+            <a href="https://govtinternship.com/jdi/" target="_blank" class="btn">View Details</a>
+        </div>
+    </div>
+
+</body>
+</html>
